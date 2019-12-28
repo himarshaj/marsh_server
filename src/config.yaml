@@ -1,0 +1,89 @@
+docroot: /home/hjayanet/Documents/Himarsha/marsh_server
+
+log_dir: /home/hjayanet/Documents/Himarsha/marsh_server/log
+log_file: /logs
+
+listing_dir: /home/hjayanet/Documents/Himarsha/marsh_server
+listing_file: /directory_listing.html
+
+/.well-known/access.log: /home/hjayanet/Documents/Himarsha/marsh_server/src/logs
+
+private_key: pmrairvsahtae
+
+methods:
+- GET
+- HEAD
+- OPTIONS
+- TRACE
+- POST
+- PUT
+- DELETE
+
+headers:
+- host
+- connection
+- If-Modified-Since
+- If-Unmodified-Since
+- If-Match
+- If-None-Match
+
+encodings:
+ compress: Z
+ gzip: gz
+ chunked:
+
+charset_encodings:
+ jis: iso-2022-jp
+ koi8-r: koi8-r
+ euc-kr: euc-kr
+
+
+languages:
+- en
+- es
+- de
+- ja
+- ko
+- ru
+
+  
+mimetypes:
+ pdf: application/pdf
+ ppt: application/vnd.ms-powerpoint
+ pps: application/vnd.ms-powerpoint
+ pot: application/vnd.ms-powerpoint
+ ppam: application/vnd.ms-powerpoint.addin.macroenabled.12
+ pptm: application/vnd.ms-powerpoint.presentation.macroenabled.12
+ sldm: application/vnd.ms-powerpoint.slide.macroenabled.12
+ ppsm: application/vnd.ms-powerpoint.slideshow.macroenabled.12
+ potm: application/vnd.ms-powerpoint.template.macroenabled.12
+ docm: application/vnd.ms-word.document.macroenabled.12
+ dotm: application/vnd.ms-word.template.macroenabled.12
+ bin: application/octet-stream
+ dms: application/octet-stream
+ lrf: application/octet-stream
+ mar: application/octet-stream
+ so: application/octet-stream
+ dist: application/octet-stream
+ distz: application/octet-stream
+ pkg: application/octet-stream
+ bpk: application/octet-stream
+ dump: application/octet-stream
+ elc: application/octet-stream
+ deploy: application/octet-stream
+ gif: image/gif
+ jpeg: image/jpeg
+ jpg: image/jpeg 
+ jpe: image/jpeg
+ png: image/png
+ html: text/html
+ htm: text/html
+ txt: text/plain
+ text: text/plain
+ conf: text/plain
+ def: text/plain
+ list: text/plain
+ log: text/plain
+ in: text/plain
+ xml: text/xml
+ 
